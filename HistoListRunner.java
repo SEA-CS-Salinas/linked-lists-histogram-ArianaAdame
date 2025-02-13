@@ -1,3 +1,5 @@
+package linkedlistshisto;
+
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
@@ -6,11 +8,10 @@
 import java.util.*;
 import static java.lang.System.*;
 
-public class HistoListRunner
-{
-	public static void main(String[] args)
-	{
-		//A A A A B V S E A S A A
+public class HistoListRunner {
+	public static void main(String[] args) {
+		// A A A A B V S E A S A A
+		// :3c
 		HistoList test = new HistoList();
 		test.addLetter('A');
 		test.addLetter('A');
@@ -26,16 +27,14 @@ public class HistoListRunner
 		test.addLetter('A');
 		System.out.println(test);
 
-
-		//A B C
+		// A B C
 		test = new HistoList();
 		test.addLetter('A');
 		test.addLetter('B');
 		test.addLetter('C');
 		System.out.println(test);
 
-
-		//A B C A B C A B C A B C A B C
+		// A B C A B C A B C A B C A B C
 		test = new HistoList();
 		test.addLetter('A');
 		test.addLetter('B');
@@ -53,5 +52,6 @@ public class HistoListRunner
 		test.addLetter('B');
 		test.addLetter('C');
 		System.out.println(test);
+		
 	}
 }
